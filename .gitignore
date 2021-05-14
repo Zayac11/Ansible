@@ -3,3 +3,7 @@
 /.local
 /.cache
 /.idea
+.profile
+.vimrc
+.hushlogin
+./ansible
