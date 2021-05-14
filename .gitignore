@@ -1,4 +1,5 @@
 .bashrc
-./.ssh
-./.local
-./.cache
+/.ssh
+/.local
+/.cache
+/.idea
