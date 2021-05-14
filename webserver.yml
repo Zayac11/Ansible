@@ -2,6 +2,8 @@
 - name: Web server installed
   hosts: group1
   become: yes
+  vars:
+    my_name: Kirill Podolskiy
   tasks:
   - name: latest nginx version installed
     apt:
