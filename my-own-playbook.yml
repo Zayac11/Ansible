@@ -1,0 +1,12 @@
+---
+- name: Web server installed
+  hosts: group1
+  become: yes
+  vars:
+    my_name: Kirill Podolskiy
+  tasks:
+  - name: latest wget version installed
+    apt:
+      name: wget
+      state: latest
+      update_cache: true
